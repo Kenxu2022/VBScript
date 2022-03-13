@@ -24,7 +24,7 @@ ws.run "1.vbs"
 
 如果1.vbs的位置在桌面上，那么他的实际路径应该是这样的：
 
-"C:\Users\***（用户名）\OneDrive\桌面\关闭wscript.vbs"
+"C:\Users\ ***（用户名）\OneDrive\桌面\关闭wscript.vbs"
 
 发现问题了吧，“桌面”是中文，因此用UTF-8编码便会出现乱码，运行的时候就会报文件不存在
 
